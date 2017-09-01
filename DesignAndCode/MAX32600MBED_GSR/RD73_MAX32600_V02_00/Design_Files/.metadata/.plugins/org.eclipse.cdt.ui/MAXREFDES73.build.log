@@ -1,0 +1,10 @@
+14:33:05 **** Clean-only build of configuration Debug for project MAXREFDES73 ****
+make clean 
+rm -rf Build *.map *.log MAXREFDES73.elf
+make -C Libraries clean
+make[1]: Entering directory `/c/101_REFDES/014_REFDES73/9_Firmware/RD73_MAX32600_V02_00/Design_Files/MAXREFDES73/Libraries'
+rm -rf Build libmax32600.a
+make[1]: Leaving directory `/c/101_REFDES/014_REFDES73/9_Firmware/RD73_MAX32600_V02_00/Design_Files/MAXREFDES73/Libraries'
+
+14:33:48 Build Finished (took 43s.212ms)
+
